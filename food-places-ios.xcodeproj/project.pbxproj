@@ -107,8 +107,7 @@
 				A1EFF36E25D5CEE20047606C /* Place.swift */,
 				A1491A7825D83729009D4A90 /* PlaceInfo.swift */,
 				A1EFF38025D689240047606C /* FPError.swift */,
-				A1491A8625D87B59009D4A90 /* SectionIdentifier.swift */,
-				A1491A8925D87B7D009D4A90 /* ItemIdentifier.swift */,
+				A1491AA125D88F4D009D4A90 /* UI */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -176,6 +175,15 @@
 				A1491A9925D87EFE009D4A90 /* PlaceDetailsView.swift */,
 			);
 			path = Details;
+			sourceTree = "<group>";
+		};
+		A1491AA125D88F4D009D4A90 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A1491A8625D87B59009D4A90 /* SectionIdentifier.swift */,
+				A1491A8925D87B7D009D4A90 /* ItemIdentifier.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		A1E6AB0C25D53A97005FBDB2 = {
