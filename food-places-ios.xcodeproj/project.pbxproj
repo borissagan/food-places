@@ -124,9 +124,9 @@
 		A1491A8325D8742C009D4A90 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				A1EFF35525D570FD0047606C /* PlaceFinderManager.swift */,
-				A1EFF35225D570B10047606C /* DatabaseManager.swift */,
-				A1EFF36A25D59ECD0047606C /* LocationManager.swift */,
+				A1491AA525D88FDC009D4A90 /* ArcGIS */,
+				A1491AA325D88FD1009D4A90 /* DB */,
+				A1491AA725D88FE5009D4A90 /* Location */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -186,6 +186,31 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		A1491AA325D88FD1009D4A90 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				A1EFF38525D6AA750047606C /* Places.xcdatamodeld */,
+				A1EFF35225D570B10047606C /* DatabaseManager.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		A1491AA525D88FDC009D4A90 /* ArcGIS */ = {
+			isa = PBXGroup;
+			children = (
+				A1EFF35525D570FD0047606C /* PlaceFinderManager.swift */,
+			);
+			path = ArcGIS;
+			sourceTree = "<group>";
+		};
+		A1491AA725D88FE5009D4A90 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				A1EFF36A25D59ECD0047606C /* LocationManager.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
 		A1E6AB0C25D53A97005FBDB2 = {
 			isa = PBXGroup;
 			children = (
@@ -211,7 +236,6 @@
 				A1E6AB1A25D53A97005FBDB2 /* SceneDelegate.swift */,
 				A1E6AB3925D54338005FBDB2 /* APIKeys.swift */,
 				A1EFF35B25D5726B0047606C /* URLs.swift */,
-				A1EFF38525D6AA750047606C /* Places.xcdatamodeld */,
 				A1E6AB4825D546C9005FBDB2 /* Application Logic */,
 				A1E6AB4325D546A3005FBDB2 /* User Interface */,
 				A1E6AB2125D53A99005FBDB2 /* Assets.xcassets */,
